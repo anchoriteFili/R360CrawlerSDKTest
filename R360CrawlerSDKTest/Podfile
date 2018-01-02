@@ -1,5 +1,0 @@
-target 'R360CrawlerSDKTest' do
-end
-platform :ios, '8.0'
-use_frameworks!
-pod 'R360CrawlerSDK'

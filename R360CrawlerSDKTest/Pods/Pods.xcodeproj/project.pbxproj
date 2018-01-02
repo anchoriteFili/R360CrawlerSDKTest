@@ -14,7 +14,6 @@
 
 /* Begin PBXFileReference section */
 		00ABDDF15A2A6C1559F402A4530A3FFF /* Pods-R360CrawlerSDKTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-R360CrawlerSDKTest-dummy.m"; sourceTree = "<group>"; };
-		274A6B8BF104620A1C11920A0F235879 /* RDPCrawler.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = RDPCrawler.bundle; path = RDPCrawlerSDK/RDPCrawlerSDK.framework/RDPCrawler.bundle; sourceTree = "<group>"; };
 		27E70D78D726598B117128F964850958 /* Pods-R360CrawlerSDKTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-R360CrawlerSDKTest.modulemap"; sourceTree = "<group>"; };
 		4B1292339578D993C777A7D820D06EA7 /* Pods-R360CrawlerSDKTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-R360CrawlerSDKTest-resources.sh"; sourceTree = "<group>"; };
 		5517C92B83562EBDAA76DA4CE94EC6B5 /* Pods-R360CrawlerSDKTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-R360CrawlerSDKTest.release.xcconfig"; sourceTree = "<group>"; };
@@ -25,7 +24,6 @@
 		9A5A7A755D3F1EC012E286E64849C097 /* Pods-R360CrawlerSDKTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-R360CrawlerSDKTest-acknowledgements.plist"; sourceTree = "<group>"; };
 		B0F7E869DB4B7D12CC803E6190BBA239 /* Pods-R360CrawlerSDKTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-R360CrawlerSDKTest-umbrella.h"; sourceTree = "<group>"; };
 		BD32861491081773E46F316392C57AFD /* Pods-R360CrawlerSDKTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-R360CrawlerSDKTest.debug.xcconfig"; sourceTree = "<group>"; };
-		CF6B1EE37A74187C4FE578178EE14A64 /* RDPCrawlerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RDPCrawlerSDK.framework; path = RDPCrawlerSDK/RDPCrawlerSDK.framework; sourceTree = "<group>"; };
 		F70001CFDB529CC7779436531CAD0F45 /* Pods-R360CrawlerSDKTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-R360CrawlerSDKTest-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FC61C87313C14F56A57913D148CC1196 /* Pods_R360CrawlerSDKTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_R360CrawlerSDKTest.framework; path = "Pods-R360CrawlerSDKTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -58,32 +56,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		54DCA1AE58AE0A0C54473106CF061B0B /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				274A6B8BF104620A1C11920A0F235879 /* RDPCrawler.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		59DB0582FC66D2798CF84DD6AA257F2A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CF6B1EE37A74187C4FE578178EE14A64 /* RDPCrawlerSDK.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		616EA8FFCC5CB09F32C869A7BEC291B1 /* R360CrawlerSDK */ = {
-			isa = PBXGroup;
-			children = (
-				59DB0582FC66D2798CF84DD6AA257F2A /* Frameworks */,
-				54DCA1AE58AE0A0C54473106CF061B0B /* Resources */,
-			);
-			name = R360CrawlerSDK;
-			path = R360CrawlerSDK;
-			sourceTree = "<group>";
-		};
 		6849D879B222BAAC4DD2CBAE3C5EBF5F /* Pods-R360CrawlerSDKTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,18 +79,9 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				8E8ED9C042353C44FEEE1643EFF91110 /* Pods */,
 				0D9758234909548EBE4D10AAF13AD351 /* Products */,
 				3840DFEE207855E806A5C086DCA7AFEA /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8E8ED9C042353C44FEEE1643EFF91110 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				616EA8FFCC5CB09F32C869A7BEC291B1 /* R360CrawlerSDK */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {

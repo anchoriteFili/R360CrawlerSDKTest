@@ -1,0 +1,6 @@
+framework module Pods_R360CrawlerSDKTest {
+  umbrella header "Pods-R360CrawlerSDKTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

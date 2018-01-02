@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52A85EF60B6A93E56FC0EACA /* Pods_R360CrawlerSDKTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3054F7CCEBA1EF4FD5483B7 /* Pods_R360CrawlerSDKTest.framework */; };
 		D68955A61FFB1D2800601423 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68955A51FFB1D2800601423 /* AppDelegate.swift */; };
 		D68955A81FFB1D2800601423 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68955A71FFB1D2800601423 /* ViewController.swift */; };
 		D68955AB1FFB1D2800601423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D68955A91FFB1D2800601423 /* Main.storyboard */; };
@@ -34,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B3AC4F1F36996E60020BC17 /* Pods-R360CrawlerSDKTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-R360CrawlerSDKTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-R360CrawlerSDKTest/Pods-R360CrawlerSDKTest.debug.xcconfig"; sourceTree = "<group>"; };
+		D3054F7CCEBA1EF4FD5483B7 /* Pods_R360CrawlerSDKTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_R360CrawlerSDKTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D31D2BF3378779C7F03E34D8 /* Pods-R360CrawlerSDKTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-R360CrawlerSDKTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-R360CrawlerSDKTest/Pods-R360CrawlerSDKTest.release.xcconfig"; sourceTree = "<group>"; };
 		D68955A21FFB1D2800601423 /* R360CrawlerSDKTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = R360CrawlerSDKTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D68955A51FFB1D2800601423 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D68955A71FFB1D2800601423 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52A85EF60B6A93E56FC0EACA /* Pods_R360CrawlerSDKTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A9CAE6C78217DAA10C3F8032 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B3AC4F1F36996E60020BC17 /* Pods-R360CrawlerSDKTest.debug.xcconfig */,
+				D31D2BF3378779C7F03E34D8 /* Pods-R360CrawlerSDKTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D68955991FFB1D2800601423 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +95,8 @@
 				D68955B91FFB1D2800601423 /* R360CrawlerSDKTestTests */,
 				D68955C41FFB1D2800601423 /* R360CrawlerSDKTestUITests */,
 				D68955A31FFB1D2800601423 /* Products */,
+				A9CAE6C78217DAA10C3F8032 /* Pods */,
+				E9CDDA1374FC13466D32A5C7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +141,14 @@
 			path = R360CrawlerSDKTestUITests;
 			sourceTree = "<group>";
 		};
+		E9CDDA1374FC13466D32A5C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3054F7CCEBA1EF4FD5483B7 /* Pods_R360CrawlerSDKTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D68955CA1FFB1D2800601423 /* Build configuration list for PBXNativeTarget "R360CrawlerSDKTest" */;
 			buildPhases = (
+				48D61C3CA3C5E663CF8070AB /* [CP] Check Pods Manifest.lock */,
 				D689559E1FFB1D2800601423 /* Sources */,
 				D689559F1FFB1D2800601423 /* Frameworks */,
 				D68955A01FFB1D2800601423 /* Resources */,
+				303A132D08FA49C983FE102D /* [CP] Embed Pods Frameworks */,
+				AD1A53196E3CD82CCDDB8522 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +280,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		303A132D08FA49C983FE102D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-R360CrawlerSDKTest/Pods-R360CrawlerSDKTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48D61C3CA3C5E663CF8070AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-R360CrawlerSDKTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD1A53196E3CD82CCDDB8522 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-R360CrawlerSDKTest/Pods-R360CrawlerSDKTest-resources.sh",
+				"${PODS_ROOT}/R360CrawlerSDK/RDPCrawlerSDK/RDPCrawlerSDK.framework/RDPCrawler.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-R360CrawlerSDKTest/Pods-R360CrawlerSDKTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D689559E1FFB1D2800601423 /* Sources */ = {
@@ -424,6 +505,7 @@
 		};
 		D68955CB1FFB1D2800601423 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B3AC4F1F36996E60020BC17 /* Pods-R360CrawlerSDKTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +521,7 @@
 		};
 		D68955CC1FFB1D2800601423 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D31D2BF3378779C7F03E34D8 /* Pods-R360CrawlerSDKTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
